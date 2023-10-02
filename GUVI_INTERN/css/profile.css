@@ -1,0 +1,43 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.container h2 {
+  color: #333;
+}
+.container .profile-info {
+  margin-top: 20px;
+}
+.container .profile-info .form-group {
+  margin-bottom: 15px;
+}
+.container .profile-info .form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.container .profile-info .form-group input[type=number],
+.container .profile-info .form-group input[type=date],
+.container .profile-info .form-group input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.container .profile-info button {
+  width: 20%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=profile.css.map */

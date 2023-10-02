@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile.css">
+    <title>User Profile</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, <span id="user-name"></span>!</h2>
+        <div class="profile-info">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" name="age" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="form-control" id="dob" name="dob">
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact:</label>
+                <input type="text" class="form-control" id="contact" name="contact" placeholder="Enter your contact information">
+            </div>
+            <button type="button" id="update-button" class="btn btn-primary">Update</button>
+        </div>
+        <p><a href="logout.php">Logout</a></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>
