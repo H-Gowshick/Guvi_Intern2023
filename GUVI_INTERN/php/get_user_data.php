@@ -3,10 +3,10 @@ session_start();
 
 if (isset($_SESSION["user_id"])) {
     // Database connection
-    $host = "localhost"; // Change to your MySQL server host
-    $username = "root"; // Change to your MySQL username
-    $password = ""; // Change to your MySQL password
-    $database = "user_details"; // Change to your MySQL database name
+    $host = "localhost";
+    $username = "root";
+    $password = ""; 
+    $database = "user_details"; 
 
     // Create a connection
     $conn = new mysqli($host, $username, $password, $database);
