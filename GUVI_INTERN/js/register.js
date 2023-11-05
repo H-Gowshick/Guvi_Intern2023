@@ -8,7 +8,7 @@ $(document).ready(function () {
 
         if (password !== confirmPassword) {
             alert("Password and confirm password do not match. Please try again.");
-            return; // Exit the function if passwords don't match
+            return; 
         }
 
         var formData = $(this).serialize();
@@ -19,7 +19,6 @@ $(document).ready(function () {
             data: formData,
             success: function (response) {
                 if (response === "success") {
-                    // Registration successful
                     alert("Registration successful!");
                     window.location.href = "login.html"; // Redirect to login page
                 } else {
