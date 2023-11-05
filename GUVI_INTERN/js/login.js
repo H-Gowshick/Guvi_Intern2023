@@ -15,7 +15,7 @@ $(document).ready(function() {
                     // Redirect to the profile page upon successful login
                     window.location.href = "profile.html";
                 } else {
-                    alert(response); // Display any error messages
+                    alert(response); //error messages
                 }
             }
         });
